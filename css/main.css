@@ -74,14 +74,14 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
+/* ul {
+  margin: 2;
+  padding: 4;
+} */
 
-ul li {
+/* ul li {
   list-style: none;
-}
+} */
 
 a:hover,
 a:focus {
@@ -404,7 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(https://media.istockphoto.com/id/1254102274/photo/glowing-lightbulb.jpg?s=612x612&w=0&k=20&c=3kwonEHOe2oJ4Z4I9ZVSreZ80xdgQgZz7Q1YHm9WaNA=) fixed no-repeat;
+  background: url(../img/LED/img1.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -611,6 +611,26 @@ button:focus {
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+/* .section{
+  background: url(../img/LED/2.png);
+  /* background-size: cover; */
+  /* color: #fff;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+
+} */
+
+/* #section.overlay {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 0px;
+  left: 0px;
+  background: #61D2B4;
+  opacity: 0.9;
+} */ */
+
 
 .item-boxes .icon {
   width: 60px;
@@ -1237,6 +1257,15 @@ button:focus {
 footer {
   background: #292f35;
   padding: 20px 0;
+}
+.banner-title {
+  color: white !important;
+}
+
+.banner-content{
+  display: flex !important;
+  justify-content: end !important;
+  align-items: center !important;
 }
 
 .footer-links {
