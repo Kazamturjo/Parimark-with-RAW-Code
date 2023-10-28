@@ -575,6 +575,7 @@ button:focus {
   .navbar-brand {
     position: absolute;
     padding: 15px;
+    width: 70%;
     top: 0;
   }
   .navbar-brand img {

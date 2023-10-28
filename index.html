@@ -7,9 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <meta name="author" content="Grayrids" />
   <title>Primark</title>
+  
   <style>
+    .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
     .card-container {
         display: flex;
         flex-wrap: wrap;
@@ -57,95 +76,106 @@
   <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
-<body>
-  <header id="hero-area" data-stellar-background-ratio="0.5">
-    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="navbar-brand">
-            <img style="width: 50%" src="img/LOGO/logo.png" alt="" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-            aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="lnr lnr-menu"></i>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#hero-area">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#features">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#portfolios">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <!-- Mobile Menu Start -->
-      <ul class="mobile-menu">
-        <li>
-          <a class="page-scroll" href="#hero-area">Home</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#services">Services</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#features">Product</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#portfolios">Works</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#pricing">Pricing</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#team">Team</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#blog">Blog</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contact">Contact</a>
-        </li>
-      </ul>
-      <!-- Mobile Menu End -->
-    </nav>
-    <!-- Navbar End -->
-    <div class="banner-content">
-      <div class="row justify-content-md-center">
-        <div class="col-md-8">
-          <div class="contents text-center ">
-            <h1 class="wow fadeInDown banner-title" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              Primark LED TV (Tunable White)
-            </h1>
-            <p class="lead wow fadeIn banner-title" data-wow-duration="1000ms" data-wow-delay="400ms">
-              A seamless introduction to smart lighting experience.
-            </p>
-            <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms"
-              data-wow-delay="400ms">Download</a>
-          </div>
+<body>
+  
+  
+  
+
+
+<!-- Header Section Start -->
+<header id="hero-area" data-stellar-background-ratio="0.5">
+  <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">
+          <img style="width: 50%" src="img/LOGO/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+          aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="lnr lnr-menu"></i>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#hero-area">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#features">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#portfolios">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <!-- Mobile Menu Start -->
+ <div  >
+  <ul class="mobile-menu">
+    <li>
+      <a class="page-scroll" href="#hero-area">Home</a>
+    </li>
+    <li>
+      <a class="page-scroll" href="#services">Services</a>
+    </li>
+    <li>
+      <a class="page-scroll" href="#features">About</a>
+    </li>
+    <li>
+      <a class="page-scroll" href="#portfolios">Products</a>
+    </li>
+    <li>
+      <!-- <a class="page-scroll" href="#pricing">Pricing</a> -->
+    </li>
+    <li>
+      <a class="page-scroll" href="#team">Team</a>
+    </li>
+    <li>
+      <a class="page-scroll" href="#blog">Blog</a>
+    </li>
+    <li>
+      <a class="page-scroll" href="#contact">Contact</a>
+    </li>
+  </ul>
+ </div>
+    <!-- Mobile Menu End -->
+  </nav>
+  <!-- Navbar End -->
+  <div class="banner-content">
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <div class="contents text-center ">
+          <h1 class="wow fadeInDown banner-title" data-wow-duration="1000ms" data-wow-delay="0.3s">
+            Primark LED TV (Tunable White)
+          </h1>
+          <p class="lead wow fadeIn banner-title" data-wow-duration="1000ms" data-wow-delay="400ms">
+            A seamless introduction to smart lighting experience.
+          </p>
+          <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms"
+            data-wow-delay="400ms">Download</a>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
   <!-- Header Section End -->
   <!-- What is led -->
   <section id="services" class="section">
@@ -385,11 +415,14 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
       </h2>
       <hr class="lines" />
 
-      <div style="padding: 20px; margin: 30px;">
-        <div class="card-container">
-          <div class="card">
-              <!-- <img src="image1.jpg" alt="Card Image 1"> -->
-              <h3>Card Title 1</h3>
+      <div style="padding: 30px; margin: 30px;">
+        <div class="cards">
+          <article class="card">
+            <header>
+              <!-- <h2 style="text-align: center;">Movies</h2> -->
+            </header>
+            <img src="https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <div class="content">
               <p> <li>Educational Institution
                 (Classroom and Auditorium)
               </li>
@@ -402,10 +435,16 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
               
               <li>Roadside Advertising
               </li></p>
-          </div>
-          <div class="card">
-              <!-- <img src="image2.jpg" alt="Card Image 2"> -->
-              <h3>Card Title 2</h3>
+            </div>
+        
+          </article>
+        
+          <article class="card">
+            <header>
+              <!-- <h2>Hotal/Club Lobby</h2> -->
+            </header>
+            <img src="img/LED\/img29.png" alt="Hot air balloons">
+            <div class="content">
               <p>  <li>Exhibition Halls
               </li>
               <li>Indoor/ Outdoor events
@@ -419,10 +458,16 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
               <li>Bus Terminals
               </li>
               </p>
-          </div>
-          <div class="card">
-              <!-- <img src="image3.jpg" alt="Card Image 3"> -->
-              <h3>Card Title 3</h3>
+            </div>
+            <!-- <footer>I have a footer!</footer> -->
+          </article>
+        
+          <article class="card">
+            <header>
+              <!-- <h2 style="text-align: center;">Sports</h2> -->
+            </header>
+            <img src="https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hot air balloons">
+            <div class="content">
               <p> <li>Shopping Malls.
               </li>
               <li>Branded Clothing outlets
@@ -433,10 +478,83 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
               </li>
               <li>Rail- Station –Digital Direction board or Advertising
               </li></p>
-          </div>
-          <div class="card">
+            </div>
+            <!-- <footer>I have a footer!</footer> -->
+          </article>
+          <article class="card">
+            <header>
+              <!-- <h2 style="text-align: center;">Security Control room</h2> -->
+            </header>
+            <img src="img/LED/img30.png" alt="Hot air balloons">
+            <div class="content">
+              <p>
+                <li>Social Clubs
+                </li>
+                <li>Crowded places at Outdoor
+                </li>
+                <li>Corporate / Events</li>
+                <li>Hospital and Clinics
+                </li>
+                <li>Cricket and Football Stadiums
+                </li>
+                <li>Entertainment Parks
+                </li></p>
+            </div>
+        
+          </article>
+        </div>
+        <!--cardtoo---->
+        <!-- <div class="card-container"> -->
+          <!-- <div class="card"> -->
+              <!-- <img src="image1.jpg" alt="Card Image 1"> -->
+              <!-- <h3>Card Title 1</h3>
+              <p> <li>Educational Institution
+                (Classroom and Auditorium)
+              </li>
+              <li>Digital Billboard
+              </li>
+              <li>Corporate Offices ( Board Room)
+              </li>
+              <li>Airports
+              </li>
+              
+              <li>Roadside Advertising
+              </li></p> -->
+          <!-- </div> -->
+          <!-- <div class="card"> -->
+              <!-- <img src="image2.jpg" alt="Card Image 2"> -->
+              <!-- <h3>Card Title 2</h3>
+              <p>  <li>Exhibition Halls
+              </li>
+              <li>Indoor/ Outdoor events
+              </li>
+              <li> Cinema Halls
+              </li>
+              <li>Broadcasting Studio
+              </li>
+              <li>Shopping Malls
+              </li>
+              <li>Bus Terminals
+              </li>
+              </p> -->
+          <!-- </div>
+          <div class="card"> -->
+              <!-- <img src="image3.jpg" alt="Card Image 3"> -->
+              <!-- <h3>Card Title 3</h3>
+              <p> <li>Shopping Malls.
+              </li>
+              <li>Branded Clothing outlets
+              </li>
+              <li>Electronic Media’s ( News Room )
+              </li>
+              <li>Food Courts etc.
+              </li>
+              <li>Rail- Station –Digital Direction board or Advertising
+              </li></p> -->
+          <!-- </div> -->
+          <!-- <div class="card"> -->
               <!-- <img src="image4.jpg" alt="Card Image 4"> -->
-              <h3>Card Title 4</h3>
+              <!-- <h3>Card Title 4</h3>
               <p>
                 <li>Social Clubs
                 </li>
@@ -451,13 +569,13 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
                 </li></p>
           </div>
       </div>
-          
+           -->
        
       
        
       
       </div>
-      <br>
+      <!-- <br>
       <section>
         <div class="portfolio-item">
           <div class="shot-item">
@@ -468,47 +586,46 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
             >
               <i class="lnr lnr-eye item-icon"></i>
             </a> -->
-          </div>
+          <!-- </div>
         </div>
     </div>
     <br>
     <div class="portfolio-item">
       <div class="shot-item">
-        <img src="./img/LED/img11.png" alt="" />
+        <img src="./img/LED/img11.png" alt="" /> -->
         <!-- <a
             class="overlay lightbox"
             href="./img/LED/img11.png"
           >
             <i class="lnr lnr-eye item-icon"></i>
           </a> -->
-      </div>
-    </div>
-  <!-- </div> -->
+      <!-- </div>
+    </div> 
   <br>
   <div class="portfolio-item">
     <div class="shot-item">
-      <img src="./img/LED/img12.png" alt="" />
+      <img src="./img/LED/img12.png" alt="" /> -->
       <!-- <a
             class="overlay lightbox"
             href="./img/LED/img11.png"
           >
             <i class="lnr lnr-eye item-icon"></i>
           </a> -->
-    </div>
+    <!-- </div>
   </div>
   </div>
   <br>
   <div class="portfolio-item">
     <div class="shot-item">
-      <img src="./img/LED/img13.png" alt="" />
+      <img src="./img/LED/img13.png" alt="" /> -->
       <!-- <a
           class="overlay lightbox"
           href="./img/LED/img11.png"
         >
           <i class="lnr lnr-eye item-icon"></i>
         </a> -->
-    </div>
-  </div>
+    <!-- </div> -->
+  <!-- </div> -->
   </div>
 
 
@@ -558,6 +675,15 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
                   <i class="lnr lnr-eye item-icon"></i>
                 </a>
               </div>
+              <br>
+              <div class="shot-item">
+                <img src="./img/LED/img11.png" alt="" />
+                <a class="overlay lightbox" href="./img/LED/img14.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              
+              
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
@@ -568,6 +694,13 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
                   <i class="lnr lnr-eye item-icon"></i>
                 </a>
               </div>
+              <br>
+              <div class="shot-item">
+                <img src="./img/LED/img12.png" alt="" />
+                <a class="overlay lightbox" href="./img/LED/img14.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
@@ -575,6 +708,13 @@ LED Panels are easily replaceable - If a LED panel is broken it can easily remov
               <div class="shot-item">
                 <img src="./img/LED/img16.png" alt="" />
                 <a class="overlay lightbox" href="./img/LED/img16.png">
+                  <i class="lnr lnr-eye item-icon"></i>
+                </a>
+              </div>
+              <br>
+              <div class="shot-item">
+                <img src="./img/LED/img13.png" alt="" />
+                <a class="overlay lightbox" href="./img/LED/img14.png">
                   <i class="lnr lnr-eye item-icon"></i>
                 </a>
               </div>
